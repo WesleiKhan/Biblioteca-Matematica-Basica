@@ -1,8 +1,12 @@
 package io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas;
 
+import io.github.WesleiKhan.Matematica_Basica.contract.OperacoesBasicas;
 import io.github.WesleiKhan.Matematica_Basica.contract.RaizQuadrada;
+import io.github.WesleiKhan.Matematica_Basica.core.OperacoesBasicasCore;
 
 public class RaizQuadradaCore implements RaizQuadrada {
+
+    private final OperacoesBasicas operacao = new OperacoesBasicasCore();
 
     @Override
     public double descobrirRaizQuadrada(double radicando) {
@@ -22,9 +26,9 @@ public class RaizQuadradaCore implements RaizQuadrada {
         double fim = radicando;
         double meio = 0;
 
-        while ((fim - inicio) > epsilon) {
+        while (operacao.subtracao(fim, inicio) > epsilon) {
 
-            meio = (inicio + fim) / 2;
+            meio = operacao.adicao(inicio, fim) / 2;
             double quadrada = meio * meio;
 
             if (quadrada > radicando) {
@@ -34,6 +38,6 @@ public class RaizQuadradaCore implements RaizQuadrada {
             }
         }
 
-        return (inicio + fim) / 2;
+        return operacao.adicao(inicio, fim) / 2;
     }
 }

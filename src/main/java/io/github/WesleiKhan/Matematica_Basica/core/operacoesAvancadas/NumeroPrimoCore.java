@@ -8,7 +8,7 @@ import java.util.List;
 
 public class NumeroPrimoCore implements NumeroPrimo {
 
-    private RaizQuadrada raiz = new RaizQuadradaCore();
+    private final RaizQuadrada raiz = new RaizQuadradaCore();
 
     int[] numeros = new int[100_000];
 
