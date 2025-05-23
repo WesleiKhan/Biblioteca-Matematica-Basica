@@ -33,4 +33,16 @@ public class VerificadorTest {
         assertEquals(false, verificador.verificandoSeNumeroEPar(7.0));
     }
 
+    @Test
+    void verificadoDeResto_quandoEntradaEValida() {
+
+        assertEquals(true, verificador.verificadoDeResto(30,2));
+    }
+
+    @Test
+    void verificadoDeResto_quandoEntradaEInvalida() {
+
+        assertEquals(false, verificador.verificadoDeResto(30,7));
+    }
+
 }

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/VerificadorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/VerificadorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.FatoracaoTest.executor": "Run",
     "JUnit.NumeroPrimoTest.executor": "Run",
     "JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor": "Run",
     "JUnit.RaizQuadradaTest.executor": "Run",
@@ -51,6 +53,21 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.VerificadorTest">
+    <configuration name="FatoracaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Matematica_Basica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FatoracaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumeroPrimoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
@@ -115,6 +132,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.VerificadorTest" />
+        <item itemvalue="JUnit.FatoracaoTest" />
         <item itemvalue="JUnit.NumeroPrimoTest" />
         <item itemvalue="JUnit.RaizQuadradaTest" />
         <item itemvalue="JUnit.RaizQuadradaTest.descobrirRaizQuadrada" />
