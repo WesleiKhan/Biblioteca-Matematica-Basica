@@ -13,4 +13,9 @@ public class VerificadorCore implements Verificador {
     public boolean verificandoSeNumeroEPar(double numero) {
         return numero % 2 == 0;
     }
+
+    @Override
+    public boolean verificadoDeResto(int dividendo, int divisor) {
+        return dividendo % divisor == 0;
+    }
 }

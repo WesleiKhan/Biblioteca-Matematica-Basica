@@ -6,4 +6,6 @@ public interface Verificador {
 
     public boolean verificandoSeNumeroEPar(double numero);
 
+    public boolean verificadoDeResto(int dividendo, int divisor);
+
 }
