@@ -6,7 +6,6 @@ import io.github.WesleiKhan.Matematica_Basica.contract.OperacoesBasicas;
 import io.github.WesleiKhan.Matematica_Basica.contract.Potenciacao;
 import io.github.WesleiKhan.Matematica_Basica.core.OperacoesBasicasCore;
 
-import java.util.List;
 import java.util.Map;
 
 
