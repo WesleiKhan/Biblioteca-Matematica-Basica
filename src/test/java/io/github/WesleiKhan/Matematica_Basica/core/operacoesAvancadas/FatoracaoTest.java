@@ -15,25 +15,35 @@ public class FatoracaoTest {
     List<Integer> divisores = new ArrayList<>();
 
     @Test
-    void fatoracaoDeInteiros() {
+    void fatoracaoSimples() {
 
         divisores.add(2);
         divisores.add(3);
         divisores.add(5);
 
-        assertEquals(divisores, fatoracao.fatoracaoDeInteiros(30));
+        assertEquals(divisores, fatoracao.fatoracaoSimples(30));
 
     }
 
     @Test
-    void fatoracaoDeDoisInteiros() {
+    void fatoracaoCompostaParaMMC() {
 
         divisores.add(2);
         divisores.add(2);
         divisores.add(3);
         divisores.add(5);
 
-        assertEquals(divisores, fatoracao.fatoracaoDeDoisIntetiros(20, 30));
+        assertEquals(divisores, fatoracao.fatoracaoCompostaParaMMC(20, 30));
+
+    }
+
+    @Test
+    void fatoracaoCOmpostaParaMDC() {
+
+        divisores.add(2);
+        divisores.add(5);
+
+        assertEquals(divisores, fatoracao.fatoracaoCompostaParaMDC(20, 30));
 
     }
 }

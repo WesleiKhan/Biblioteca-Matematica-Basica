@@ -18,7 +18,7 @@ public class FatoracaoCore implements Fatoracao {
     OperacoesBasicas basicas = new OperacoesBasicasCore();
 
     @Override
-    public List<Integer> fatoracaoDeInteiros(int numero) {
+    public List<Integer> fatoracaoSimples(int numero) {
 
         List<Integer> primos = primo.numerosPrimos();
 
@@ -46,7 +46,7 @@ public class FatoracaoCore implements Fatoracao {
     }
 
     @Override
-    public List<Integer> fatoracaoDeDoisIntetiros(int a, int b) {
+    public List<Integer> fatoracaoCompostaParaMMC(int a, int b) {
 
         List<Integer> primos = primo.numerosPrimos();
 
@@ -79,6 +79,45 @@ public class FatoracaoCore implements Fatoracao {
                 b = basicas.divisao(b, primoAtual);
 
                 divisores.add(primoAtual);
+
+            } else {
+                i++;
+            }
+        }
+
+        return divisores;
+    }
+
+    @Override
+    public List<Integer> fatoracaoCompostaParaMDC(int a, int b) {
+
+        List<Integer> primos = primo.numerosPrimos();
+
+        List<Integer> divisores = new ArrayList<>();
+
+        for (int i = 0; i < primos.size() && a > 1 && b > 1;) {
+
+            int primoAtual = primos.get(i);
+
+            if (primoAtual > a && primoAtual > b) break;
+
+            if (verificador.verificadoDeResto(a, primoAtual)
+                    && verificador.verificadoDeResto(b, primoAtual)) {
+
+                a = basicas.divisao(a, primoAtual);
+                b = basicas.divisao(b, primoAtual);
+
+                divisores.add(primoAtual);
+
+            }else if(verificador.verificadoDeResto(a, primoAtual)
+                    && !verificador.verificadoDeResto(b, primoAtual)) {
+
+                a = basicas.divisao(a, primoAtual);
+
+            } else if (!verificador.verificadoDeResto(a, primoAtual)
+                    && verificador.verificadoDeResto(b, primoAtual)) {
+
+                b = basicas.divisao(b, primoAtual);
 
             } else {
                 i++;
