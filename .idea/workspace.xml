@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Fatoracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Fatoracao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FatoracaoTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.NumeroPrimoTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RaizQuadradaTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VerificadorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.FatoracaoTest.executor": "Run",
+    "JUnit.FatoresMultiplicosTest.executor": "Run",
+    "JUnit.NumeroPrimoTest.executor": "Run",
+    "JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor": "Run",
+    "JUnit.RaizQuadradaTest.executor": "Run",
+    "JUnit.VerificadorTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.FatoracaoTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.FatoresMultiplicosTest">
     <configuration name="FatoracaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
@@ -65,6 +63,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
       <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FatoracaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FatoresMultiplicosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Matematica_Basica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FatoresMultiplicosTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,22 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaizQuadradaTest.descobrirRaizQuadrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Matematica_Basica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.RaizQuadradaTest" />
-      <option name="METHOD_NAME" value="descobrirRaizQuadrada" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VerificadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
@@ -133,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FatoresMultiplicosTest" />
         <item itemvalue="JUnit.FatoracaoTest" />
         <item itemvalue="JUnit.VerificadorTest" />
         <item itemvalue="JUnit.NumeroPrimoTest" />
         <item itemvalue="JUnit.RaizQuadradaTest" />
-        <item itemvalue="JUnit.RaizQuadradaTest.descobrirRaizQuadrada" />
       </list>
     </recent_temporary>
   </component>

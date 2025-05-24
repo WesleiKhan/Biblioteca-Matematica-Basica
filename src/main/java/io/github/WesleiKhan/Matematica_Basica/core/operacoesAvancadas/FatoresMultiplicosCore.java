@@ -17,11 +17,16 @@ public class FatoresMultiplicosCore implements FatoresMultiplicos {
     @Override
     public int MMC(int a, int b) {
 
-        List<Integer> divisoresDeA = fatoracao.fatoracaoDeInteiros(a);
-        List<Integer> divisoresDeB = fatoracao.fatoracaoDeInteiros(b);
+        List<Integer> divisores = fatoracao.fatoracaoDeDoisIntetiros(a, b);
 
+        int mmc = 1;
 
-        return 0;
+        for(int divisor: divisores) {
+
+            mmc = basicas.multiplicacao(mmc, divisor);
+        }
+
+        return mmc;
     }
 
 }
