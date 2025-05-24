@@ -7,7 +7,9 @@ import io.github.WesleiKhan.Matematica_Basica.contract.Verificador;
 import io.github.WesleiKhan.Matematica_Basica.core.OperacoesBasicasCore;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FatoracaoCore implements Fatoracao {
 
@@ -18,11 +20,11 @@ public class FatoracaoCore implements Fatoracao {
     OperacoesBasicas basicas = new OperacoesBasicasCore();
 
     @Override
-    public List<Integer> fatoracaoSimples(int numero) {
+    public Map<Integer, Integer> fatoracaoSimples(int numero) {
 
         List<Integer> primos = primo.numerosPrimos();
 
-        List<Integer> divisores = new ArrayList<>();
+        Map<Integer, Integer> divisores = new HashMap<>();
 
         for (int i = 0; i < primos.size() && numero > 1;) {
 
@@ -34,7 +36,8 @@ public class FatoracaoCore implements Fatoracao {
 
                 numero = basicas.divisao(numero, primoAtual);
 
-                divisores.add(primoAtual);
+                divisores.put(primoAtual, divisores.getOrDefault(primoAtual,
+                 0) + 1);
 
             } else {
                 i++;
@@ -46,11 +49,11 @@ public class FatoracaoCore implements Fatoracao {
     }
 
     @Override
-    public List<Integer> fatoracaoComposta(int a, int b, boolean IsMMC) {
+    public Map<Integer, Integer> fatoracaoComposta(int a, int b, boolean IsMMC) {
 
         List<Integer> primos = primo.numerosPrimos();
 
-        List<Integer> divisores = new ArrayList<>();
+        Map<Integer, Integer> divisores = new HashMap<>();
 
         for (int i = 0; i < primos.size() && a > 1 && b > 1;) {
 
@@ -64,21 +67,24 @@ public class FatoracaoCore implements Fatoracao {
                 a = basicas.divisao(a, primoAtual);
                 b = basicas.divisao(b, primoAtual);
 
-                divisores.add(primoAtual);
+                divisores.put(primoAtual, divisores.getOrDefault(primoAtual,
+                 0) + 1);
 
             }else if(verificador.verificadoDeResto(a, primoAtual)
                     && !verificador.verificadoDeResto(b, primoAtual)) {
 
                 a = basicas.divisao(a, primoAtual);
 
-                if (IsMMC) divisores.add(primoAtual);
+                if (IsMMC) divisores.put(primoAtual, divisores.getOrDefault(primoAtual,
+                                0) + 1);
 
             } else if (!verificador.verificadoDeResto(a, primoAtual)
                     && verificador.verificadoDeResto(b, primoAtual)) {
 
                 b = basicas.divisao(b, primoAtual);
 
-                if (IsMMC) divisores.add(primoAtual);
+                if (IsMMC) divisores.put(primoAtual, divisores.getOrDefault(primoAtual,
+                        0) + 1);
 
             } else {
                 i++;
