@@ -17,7 +17,7 @@ public class FatoresMultiplicosCore implements FatoresMultiplicos {
     @Override
     public int MMC(int a, int b) {
 
-        List<Integer> divisores = fatoracao.fatoracaoCompostaParaMMC(a, b);
+        List<Integer> divisores = fatoracao.fatoracaoComposta(a, b, true);
 
         int mmc = 1;
 
@@ -32,7 +32,7 @@ public class FatoresMultiplicosCore implements FatoresMultiplicos {
     @Override
     public int MDC(int a, int b) {
 
-        List<Integer> divisores = fatoracao.fatoracaoCompostaParaMDC(a, b);
+        List<Integer> divisores = fatoracao.fatoracaoComposta(a, b, false);
 
         int mmc = 1;
 

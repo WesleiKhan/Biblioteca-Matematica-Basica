@@ -33,17 +33,17 @@ public class FatoracaoTest {
         divisores.add(3);
         divisores.add(5);
 
-        assertEquals(divisores, fatoracao.fatoracaoCompostaParaMMC(20, 30));
+        assertEquals(divisores, fatoracao.fatoracaoComposta(20, 30, true));
 
     }
 
     @Test
-    void fatoracaoCOmpostaParaMDC() {
+    void fatoracaoCompostaParaMDC() {
 
         divisores.add(2);
         divisores.add(5);
 
-        assertEquals(divisores, fatoracao.fatoracaoCompostaParaMDC(20, 30));
+        assertEquals(divisores, fatoracao.fatoracaoComposta(20, 30, false));
 
     }
 }
