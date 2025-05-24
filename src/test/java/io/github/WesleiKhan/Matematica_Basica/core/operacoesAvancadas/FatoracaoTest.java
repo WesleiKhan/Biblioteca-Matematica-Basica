@@ -24,4 +24,16 @@ public class FatoracaoTest {
         assertEquals(divisores, fatoracao.fatoracaoDeInteiros(30));
 
     }
+
+    @Test
+    void fatoracaoDeDoisInteiros() {
+
+        divisores.add(2);
+        divisores.add(2);
+        divisores.add(3);
+        divisores.add(5);
+
+        assertEquals(divisores, fatoracao.fatoracaoDeDoisIntetiros(20, 30));
+
+    }
 }
