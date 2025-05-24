@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/FatoresMultiplicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/FatoresMultiplicos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +50,20 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FatoresMultiplicosTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.Main" />
+      <module name="Matematica_Basica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FatoracaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
@@ -100,21 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaizQuadradaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Matematica_Basica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.RaizQuadradaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VerificadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
@@ -132,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FatoresMultiplicosTest" />
         <item itemvalue="JUnit.FatoracaoTest" />
         <item itemvalue="JUnit.VerificadorTest" />
         <item itemvalue="JUnit.NumeroPrimoTest" />
-        <item itemvalue="JUnit.RaizQuadradaTest" />
       </list>
     </recent_temporary>
   </component>
