@@ -6,7 +6,7 @@ public interface Fatoracao {
 
     public List<Integer> fatoracaoSimples(int numero);
 
-    public List<Integer> fatoracaoComposta(int a, int b, boolean MMCorMDC);
+    public List<Integer> fatoracaoComposta(int a, int b, boolean IsMMC);
 
 
 }

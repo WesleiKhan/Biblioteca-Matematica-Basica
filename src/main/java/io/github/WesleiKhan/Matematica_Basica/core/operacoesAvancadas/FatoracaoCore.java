@@ -46,7 +46,7 @@ public class FatoracaoCore implements Fatoracao {
     }
 
     @Override
-    public List<Integer> fatoracaoComposta(int a, int b, boolean MMCorMDC) {
+    public List<Integer> fatoracaoComposta(int a, int b, boolean IsMMC) {
 
         List<Integer> primos = primo.numerosPrimos();
 
@@ -71,14 +71,14 @@ public class FatoracaoCore implements Fatoracao {
 
                 a = basicas.divisao(a, primoAtual);
 
-                if (MMCorMDC) divisores.add(primoAtual);
+                if (IsMMC) divisores.add(primoAtual);
 
             } else if (!verificador.verificadoDeResto(a, primoAtual)
                     && verificador.verificadoDeResto(b, primoAtual)) {
 
                 b = basicas.divisao(b, primoAtual);
 
-                if (MMCorMDC) divisores.add(primoAtual);
+                if (IsMMC) divisores.add(primoAtual);
 
             } else {
                 i++;
