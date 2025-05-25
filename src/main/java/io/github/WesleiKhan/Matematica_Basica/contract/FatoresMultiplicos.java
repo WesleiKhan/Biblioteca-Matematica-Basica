@@ -5,4 +5,6 @@ public interface FatoresMultiplicos {
     public int MMC(int a, int b);
 
     public int MDC(int a, int b);
+
+    public int MMC(int a, int b, int c);
 }

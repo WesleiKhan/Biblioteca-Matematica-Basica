@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Fatoracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Fatoracao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/FatoresMultiplicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/FatoresMultiplicos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.FatoracaoTest.executor": "Run",
+    "JUnit.FatoresMultiplicosTest.MMC_TresFatores.executor": "Run",
     "JUnit.FatoresMultiplicosTest.executor": "Run",
     "JUnit.NumeroPrimoTest.executor": "Run",
     "JUnit.PotenciacaoTest.executor": "Run",
@@ -56,7 +57,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FatoresMultiplicosTest">
+  <component name="RunManager" selected="JUnit.FatoresMultiplicosTest.MMC_TresFatores">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.Main" />
       <module name="Matematica_Basica" />
@@ -100,6 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FatoresMultiplicosTest.MMC_TresFatores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Matematica_Basica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FatoresMultiplicosTest" />
+      <option name="METHOD_NAME" value="MMC_TresFatores" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PotenciacaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
@@ -115,28 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerificadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Matematica_Basica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.VerificadorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FatoresMultiplicosTest.MMC_TresFatores" />
         <item itemvalue="JUnit.FatoresMultiplicosTest" />
         <item itemvalue="JUnit.PotenciacaoTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FatoracaoTest" />
-        <item itemvalue="JUnit.VerificadorTest" />
       </list>
     </recent_temporary>
   </component>
