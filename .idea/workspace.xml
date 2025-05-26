@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/FatoresMultiplicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/FatoresMultiplicos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Raiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Raiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoracaoCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/FatoresMultiplicosCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/NumeroPrimoCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/NumeroPrimoCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/PotenciacaoCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/PotenciacaoCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FatoracaoTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FatoresMultiplicosTest.MMC_TresFatores.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FatoresMultiplicosTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.NumeroPrimoTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PotenciacaoTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RaizQuadradaTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VerificadorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.FatoracaoTest.executor": "Run",
+    "JUnit.FatoresMultiplicosTest.MDC_TresFatores.executor": "Run",
+    "JUnit.FatoresMultiplicosTest.MMC_TresFatores.executor": "Run",
+    "JUnit.FatoresMultiplicosTest.executor": "Run",
+    "JUnit.NumeroPrimoTest.executor": "Run",
+    "JUnit.PotenciacaoTest.executor": "Run",
+    "JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor": "Run",
+    "JUnit.RaizQuadradaTest.executor": "Run",
+    "JUnit.VerificadorTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.FatoresMultiplicosTest.MDC_TresFatores">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.Main" />

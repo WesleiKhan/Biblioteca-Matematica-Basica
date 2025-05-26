@@ -6,7 +6,7 @@ import io.github.WesleiKhan.Matematica_Basica.core.OperacoesBasicasCore;
 
 public class PotenciacaoCore implements Potenciacao {
 
-    OperacoesBasicas basicas = new OperacoesBasicasCore();
+    private final OperacoesBasicas basicas = new OperacoesBasicasCore();
 
     @Override
     public int potencia(int base, int expoente) {

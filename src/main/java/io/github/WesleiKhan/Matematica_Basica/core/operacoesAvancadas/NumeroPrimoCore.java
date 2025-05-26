@@ -34,7 +34,7 @@ public class NumeroPrimoCore implements NumeroPrimo {
         if (numero == 2) return true;
         if (numero % 2 == 0) return false;
 
-        for (int i = 3; i < this.raiz.RaizQuadrada(numero); i += 2) {
+        for (int i = 3; i < this.raiz.raiz(numero); i += 2) {
             if (numero % i == 0) return false;
         }
 

@@ -6,18 +6,17 @@ import io.github.WesleiKhan.Matematica_Basica.contract.OperacoesBasicas;
 import io.github.WesleiKhan.Matematica_Basica.contract.Verificador;
 import io.github.WesleiKhan.Matematica_Basica.core.OperacoesBasicasCore;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class FatoracaoCore implements Fatoracao {
 
-    NumeroPrimo primo = new NumeroPrimoCore();
+    private final NumeroPrimo primo = new NumeroPrimoCore();
 
-    Verificador verificador = new VerificadorCore();
+    private final Verificador verificador = new VerificadorCore();
 
-    OperacoesBasicas basicas = new OperacoesBasicasCore();
+    private final OperacoesBasicas basicas = new OperacoesBasicasCore();
 
     @Override
     public Map<Integer, Integer> fatoracaoSimples(int numero) {

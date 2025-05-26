@@ -12,6 +12,6 @@ public class RaizTest {
     @Test
     void descobrirRaizQuadrada() {
 
-        assertEquals(7.0000, raiz.RaizQuadrada(49), 0.00001);
+        assertEquals(7.0000, raiz.raiz(49), 0.00001);
     }
 }

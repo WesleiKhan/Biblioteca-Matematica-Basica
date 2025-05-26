@@ -12,11 +12,11 @@ import java.util.Map;
 
 public class FatoresMultiplicosCore implements FatoresMultiplicos {
 
-    OperacoesBasicas basicas = new OperacoesBasicasCore();
+    private final OperacoesBasicas basicas = new OperacoesBasicasCore();
 
-    Fatoracao fatoracao = new FatoracaoCore();
+    private final Fatoracao fatoracao = new FatoracaoCore();
 
-    Potenciacao potenciacao = new PotenciacaoCore();
+    private final Potenciacao potenciacao = new PotenciacaoCore();
 
     @Override
     public int MMC(int a, int b) {

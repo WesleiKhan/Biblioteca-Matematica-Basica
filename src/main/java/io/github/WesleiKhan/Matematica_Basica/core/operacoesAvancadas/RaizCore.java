@@ -9,7 +9,7 @@ public class RaizCore implements Raiz {
     private final OperacoesBasicas operacao = new OperacoesBasicasCore();
 
     @Override
-    public double RaizQuadrada(double radicando) {
+    public double raiz(double radicando, int indice) {
 
         double epsilon = 0.00001;
         if (radicando < 0) {
@@ -29,7 +29,7 @@ public class RaizCore implements Raiz {
         while (operacao.subtracao(fim, inicio) > epsilon) {
 
             meio = operacao.adicao(inicio, fim) / 2;
-            double quadrada = meio * meio;
+            double quadrada = operacao.multiplicacao(meio, meio);
 
             if (quadrada > radicando) {
                 fim = meio;
