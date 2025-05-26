@@ -7,4 +7,7 @@ public interface FatoresMultiplicos {
     public int MDC(int a, int b);
 
     public int MMC(int a, int b, int c);
+
+    public int MDC(int a, int b, int c);
+
 }

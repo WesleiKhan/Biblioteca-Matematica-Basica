@@ -26,4 +26,10 @@ public class FatoresMultiplicosTest {
 
         assertEquals(60, fatoresMultiplicos.MMC(20, 30, 60));
     }
+
+    @Test
+    void MDC_TresFatores() {
+
+        assertEquals(12, fatoresMultiplicos.MDC(36, 60, 48));
+    }
 }

@@ -63,7 +63,30 @@ public class FatoresMultiplicosCore implements FatoresMultiplicos {
         Map<Integer, Integer> divisoresC = fatoracao.fatoracaoSimples(c);
 
         Map<Integer, Integer> divisores = this.calculaDivisores(divisoresA,
-                divisoresB, divisoresC);
+                divisoresB, divisoresC, true, false);
+
+        int mmc = 1;
+
+        for(Map.Entry<Integer, Integer> valores: divisores.entrySet()) {
+
+            int divisor = potenciacao.potencia(valores.getKey(),
+                    valores.getValue());
+
+            mmc = basicas.multiplicacao(mmc, divisor);
+        }
+
+        return mmc;
+    }
+
+    @Override
+    public int MDC(int a, int b, int c) {
+
+        Map<Integer, Integer> divisoresA = fatoracao.fatoracaoSimples(a);
+        Map<Integer, Integer> divisoresB = fatoracao.fatoracaoSimples(b);
+        Map<Integer, Integer> divisoresC = fatoracao.fatoracaoSimples(c);
+
+        Map<Integer, Integer> divisores = this.calculaDivisores(divisoresA,
+                divisoresB, divisoresC, false, true);
 
         int mmc = 1;
 
@@ -80,7 +103,9 @@ public class FatoresMultiplicosCore implements FatoresMultiplicos {
 
     private Map<Integer, Integer> calculaDivisores(Map<Integer, Integer> fatoresA,
                                                    Map<Integer, Integer> fatoresB,
-                                                   Map<Integer, Integer> fatoresC) {
+                                                   Map<Integer, Integer> fatoresC,
+                                                   boolean isMMC,
+                                                   boolean isMDC) {
 
         Map<Integer, Integer> divisores = new HashMap<>(fatoresA);
 
@@ -89,11 +114,16 @@ public class FatoresMultiplicosCore implements FatoresMultiplicos {
             if (divisores.containsKey(fator.getKey()) &&
                     divisores.get(fator.getKey()) < fator.getValue()) {
 
-                divisores.put(fator.getKey(), fator.getValue());
+                if(isMMC) divisores.put(fator.getKey(), fator.getValue());
+
+            } else if (divisores.containsKey(fator.getKey()) &&
+                    divisores.get(fator.getKey()) > fator.getValue()) {
+
+                if (isMDC) divisores.put(fator.getKey(), fator.getValue());
 
             } else if (!divisores.containsKey(fator.getKey())) {
 
-                divisores.put(fator.getKey(), fator.getValue());
+                if(isMMC) divisores.put(fator.getKey(), fator.getValue());
 
             }
         }
@@ -103,11 +133,16 @@ public class FatoresMultiplicosCore implements FatoresMultiplicos {
             if (divisores.containsKey(fator.getKey()) &&
                     divisores.get(fator.getKey()) < fator.getValue()) {
 
-                divisores.put(fator.getKey(), fator.getValue());
+                if(isMMC) divisores.put(fator.getKey(), fator.getValue());
+
+            } else if (divisores.containsKey(fator.getKey()) &&
+                    divisores.get(fator.getKey()) > fator.getValue()) {
+
+                if (isMDC) divisores.put(fator.getKey(), fator.getValue());
 
             } else if (!divisores.containsKey(fator.getKey())) {
 
-                divisores.put(fator.getKey(), fator.getValue());
+                if(isMMC) divisores.put(fator.getKey(), fator.getValue());
 
             }
         }
