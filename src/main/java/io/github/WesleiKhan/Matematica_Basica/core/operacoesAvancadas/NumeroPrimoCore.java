@@ -1,14 +1,14 @@
 package io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas;
 
 import io.github.WesleiKhan.Matematica_Basica.contract.NumeroPrimo;
-import io.github.WesleiKhan.Matematica_Basica.contract.RaizQuadrada;
+import io.github.WesleiKhan.Matematica_Basica.contract.Raiz;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class NumeroPrimoCore implements NumeroPrimo {
 
-    private final RaizQuadrada raiz = new RaizQuadradaCore();
+    private final Raiz raiz = new RaizCore();
 
     int[] numeros = new int[100_000];
 
@@ -34,7 +34,7 @@ public class NumeroPrimoCore implements NumeroPrimo {
         if (numero == 2) return true;
         if (numero % 2 == 0) return false;
 
-        for (int i = 3; i < this.raiz.descobrirRaizQuadrada(numero); i += 2) {
+        for (int i = 3; i < this.raiz.RaizQuadrada(numero); i += 2) {
             if (numero % i == 0) return false;
         }
 

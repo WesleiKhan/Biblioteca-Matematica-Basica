@@ -1,15 +1,15 @@
 package io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas;
 
 import io.github.WesleiKhan.Matematica_Basica.contract.OperacoesBasicas;
-import io.github.WesleiKhan.Matematica_Basica.contract.RaizQuadrada;
+import io.github.WesleiKhan.Matematica_Basica.contract.Raiz;
 import io.github.WesleiKhan.Matematica_Basica.core.OperacoesBasicasCore;
 
-public class RaizQuadradaCore implements RaizQuadrada {
+public class RaizCore implements Raiz {
 
     private final OperacoesBasicas operacao = new OperacoesBasicasCore();
 
     @Override
-    public double descobrirRaizQuadrada(double radicando) {
+    public double RaizQuadrada(double radicando) {
 
         double epsilon = 0.00001;
         if (radicando < 0) {
