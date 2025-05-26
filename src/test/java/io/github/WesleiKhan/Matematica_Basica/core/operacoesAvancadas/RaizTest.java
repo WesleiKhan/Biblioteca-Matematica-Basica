@@ -14,4 +14,10 @@ public class RaizTest {
 
         assertEquals(7.0000, raiz.raiz(49), 0.00001);
     }
+
+    @Test
+    void descobrirRaizAoCubo() {
+
+        assertEquals(8.3824653121, raiz.raiz(589, 3), 0.00001);
+    }
 }

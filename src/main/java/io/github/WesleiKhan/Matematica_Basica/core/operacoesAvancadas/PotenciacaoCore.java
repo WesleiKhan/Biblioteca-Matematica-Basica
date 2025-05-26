@@ -20,4 +20,17 @@ public class PotenciacaoCore implements Potenciacao {
 
         return potencia;
     }
+
+    @Override
+    public double potencia(double base, int expoente) {
+
+        double potencia = 1;
+
+        for(int i = 0; i < expoente; i++) {
+
+            potencia = basicas.multiplicacao(potencia, base);
+        }
+
+        return potencia;
+    }
 }
