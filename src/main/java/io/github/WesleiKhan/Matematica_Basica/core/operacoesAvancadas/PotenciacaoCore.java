@@ -33,4 +33,5 @@ public class PotenciacaoCore implements Potenciacao {
 
         return potencia;
     }
+
 }

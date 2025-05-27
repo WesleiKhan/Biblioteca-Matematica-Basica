@@ -6,4 +6,5 @@ public interface Potenciacao {
 
     public double potencia(double base, int expoente);
 
+
 }

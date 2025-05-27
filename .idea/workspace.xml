@@ -7,10 +7,7 @@
     <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Potenciacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Potenciacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Raiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Raiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/PotenciacaoCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/PotenciacaoCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,9 @@
     "JUnit.FatoresMultiplicosTest.MDC_TresFatores.executor": "Run",
     "JUnit.FatoresMultiplicosTest.MMC_TresFatores.executor": "Run",
     "JUnit.FatoresMultiplicosTest.executor": "Run",
+    "JUnit.MediaTest.executor": "Run",
+    "JUnit.MediaTest.mediaGeometrica.executor": "Run",
+    "JUnit.MediaTest.mediaHarmonica.executor": "Run",
     "JUnit.NumeroPrimoTest.executor": "Run",
     "JUnit.PotenciacaoTest.executor": "Run",
     "JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor": "Run",
@@ -63,8 +63,8 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RaizTest">
-    <configuration name="FatoresMultiplicosTest.MDC_TresFatores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MediaTest.mediaHarmonica">
+    <configuration name="MediaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
         <pattern>
@@ -73,14 +73,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FatoresMultiplicosTest" />
-      <option name="METHOD_NAME" value="MDC_TresFatores" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.MediaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaTest.mediaGeometrica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Matematica_Basica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.MediaTest" />
+      <option name="METHOD_NAME" value="mediaGeometrica" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FatoresMultiplicosTest.MMC_TresFatores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediaTest.mediaHarmonica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +104,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FatoresMultiplicosTest" />
-      <option name="METHOD_NAME" value="MMC_TresFatores" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.MediaTest" />
+      <option name="METHOD_NAME" value="mediaHarmonica" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,29 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaizTest.descobrirRaizQuadrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Matematica_Basica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.RaizTest" />
-      <option name="METHOD_NAME" value="descobrirRaizQuadrada" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediaTest.mediaHarmonica" />
+        <item itemvalue="JUnit.MediaTest.mediaGeometrica" />
+        <item itemvalue="JUnit.MediaTest" />
         <item itemvalue="JUnit.RaizTest" />
         <item itemvalue="JUnit.RaizTest.descobrirRaizAoCubo" />
-        <item itemvalue="JUnit.RaizTest.descobrirRaizQuadrada" />
-        <item itemvalue="JUnit.FatoresMultiplicosTest.MDC_TresFatores" />
-        <item itemvalue="JUnit.FatoresMultiplicosTest.MMC_TresFatores" />
       </list>
     </recent_temporary>
   </component>
