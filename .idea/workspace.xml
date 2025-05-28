@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,8 @@
     "JUnit.FatoresMultiplicosTest.MDC_TresFatores.executor": "Run",
     "JUnit.FatoresMultiplicosTest.MMC_TresFatores.executor": "Run",
     "JUnit.FatoresMultiplicosTest.executor": "Run",
+    "JUnit.FormulaTest.bhaskara.executor": "Run",
+    "JUnit.FormulaTest.executor": "Run",
     "JUnit.MediaTest.executor": "Run",
     "JUnit.MediaTest.mediaGeometrica.executor": "Run",
     "JUnit.MediaTest.mediaHarmonica.executor": "Run",
@@ -54,6 +54,7 @@
     "JUnit.RaizTest.descobrirRaizAoCubo.executor": "Run",
     "JUnit.RaizTest.descobrirRaizQuadrada.executor": "Run",
     "JUnit.RaizTest.descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException.executor": "Run",
+    "JUnit.RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException.executor": "Run",
     "JUnit.RaizTest.executor": "Run",
     "JUnit.VerificadorTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -64,8 +65,8 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException">
-    <configuration name="MediaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FormulaTest">
+    <configuration name="FormulaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
         <pattern>
@@ -74,13 +75,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.MediaTest" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FormulaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaTest.mediaGeometrica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormulaTest.bhaskara" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
-      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.MediaTest" />
-      <option name="METHOD_NAME" value="mediaGeometrica" />
+      <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.FormulaTest" />
+      <option name="METHOD_NAME" value="bhaskara" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormulaTest" />
+        <item itemvalue="JUnit.FormulaTest.bhaskara" />
         <item itemvalue="JUnit.RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException" />
         <item itemvalue="JUnit.RaizTest.descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException" />
         <item itemvalue="JUnit.MediaTest.mediaHarmonica" />
-        <item itemvalue="JUnit.MediaTest.mediaGeometrica" />
-        <item itemvalue="JUnit.MediaTest" />
       </list>
     </recent_temporary>
   </component>
