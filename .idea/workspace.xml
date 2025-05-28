@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8c55c16-e35a-4d3e-95bc-a8be9a303ec7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Potenciacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/contract/Potenciacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/PotenciacaoCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/PotenciacaoCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/WesleiKhan/Matematica_Basica/core/operacoesAvancadas/RaizTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
     "JUnit.RaizQuadradaTest.executor": "Run",
     "JUnit.RaizTest.descobrirRaizAoCubo.executor": "Run",
     "JUnit.RaizTest.descobrirRaizQuadrada.executor": "Run",
+    "JUnit.RaizTest.descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException.executor": "Run",
     "JUnit.RaizTest.executor": "Run",
     "JUnit.VerificadorTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -63,7 +64,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MediaTest.mediaHarmonica">
+  <component name="RunManager" selected="JUnit.RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException">
     <configuration name="MediaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
@@ -111,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaizTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RaizTest.descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +122,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
       <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.RaizTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaizTest.descobrirRaizAoCubo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas" />
       <option name="MAIN_CLASS_NAME" value="io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas.RaizTest" />
-      <option name="METHOD_NAME" value="descobrirRaizAoCubo" />
+      <option name="METHOD_NAME" value="descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException" />
+        <item itemvalue="JUnit.RaizTest.descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException" />
         <item itemvalue="JUnit.MediaTest.mediaHarmonica" />
         <item itemvalue="JUnit.MediaTest.mediaGeometrica" />
         <item itemvalue="JUnit.MediaTest" />
-        <item itemvalue="JUnit.RaizTest" />
-        <item itemvalue="JUnit.RaizTest.descobrirRaizAoCubo" />
       </list>
     </recent_temporary>
   </component>

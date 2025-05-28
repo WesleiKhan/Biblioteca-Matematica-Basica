@@ -20,4 +20,14 @@ public class RaizTest {
 
         assertEquals(8.3824653121, raiz.raiz(589, 3), 0.00001);
     }
+
+    @Test
+    void descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException() {
+
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
+                        () -> raiz.raiz(-1.0));
+
+        assertEquals("Numero negativo não tem raiz" +
+                " quadrada.", exception.getMessage());
+    }
 }

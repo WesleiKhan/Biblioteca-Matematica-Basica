@@ -3,7 +3,6 @@ package io.github.WesleiKhan.Matematica_Basica.core.operacoesAvancadas;
 import io.github.WesleiKhan.Matematica_Basica.contract.OperacoesBasicas;
 import io.github.WesleiKhan.Matematica_Basica.contract.Potenciacao;
 import io.github.WesleiKhan.Matematica_Basica.contract.Raiz;
-import io.github.WesleiKhan.Matematica_Basica.contract.Verificador;
 import io.github.WesleiKhan.Matematica_Basica.core.OperacoesBasicasCore;
 
 public class RaizCore implements Raiz {
@@ -12,7 +11,6 @@ public class RaizCore implements Raiz {
 
     private final Potenciacao potenciacao = new PotenciacaoCore();
 
-    private final Verificador verificador = new VerificadorCore();
 
     @Override
     public double raiz(double radicando) {
