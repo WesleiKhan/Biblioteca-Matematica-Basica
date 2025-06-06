@@ -35,36 +35,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.FatoracaoTest.executor": "Run",
-    "JUnit.FatoresMultiplicosTest.MDC_TresFatores.executor": "Run",
-    "JUnit.FatoresMultiplicosTest.MMC_TresFatores.executor": "Run",
-    "JUnit.FatoresMultiplicosTest.executor": "Run",
-    "JUnit.FormulaTest.bhaskara.executor": "Run",
-    "JUnit.FormulaTest.executor": "Run",
-    "JUnit.MediaTest.executor": "Run",
-    "JUnit.MediaTest.mediaGeometrica.executor": "Run",
-    "JUnit.MediaTest.mediaHarmonica.executor": "Run",
-    "JUnit.NumeroPrimoTest.executor": "Run",
-    "JUnit.PotenciacaoTest.executor": "Run",
-    "JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor": "Run",
-    "JUnit.RaizQuadradaTest.executor": "Run",
-    "JUnit.RaizTest.descobrirRaizAoCubo.executor": "Run",
-    "JUnit.RaizTest.descobrirRaizQuadrada.executor": "Run",
-    "JUnit.RaizTest.descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException.executor": "Run",
-    "JUnit.RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException.executor": "Run",
-    "JUnit.RaizTest.executor": "Run",
-    "JUnit.VerificadorTest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FatoracaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FatoresMultiplicosTest.MDC_TresFatores.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FatoresMultiplicosTest.MMC_TresFatores.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FatoresMultiplicosTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormulaTest.bhaskara.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormulaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MediaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MediaTest.mediaGeometrica.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MediaTest.mediaHarmonica.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumeroPrimoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PotenciacaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RaizQuadradaTest.descobrirRaizQuadrada.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RaizQuadradaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RaizTest.descobrirRaizAoCubo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RaizTest.descobrirRaizQuadrada.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RaizTest.descobrirRaiz_quandoInputForZero_thorwsIllegalArgumentException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RaizTest.descobrirRaiz_quandoRadicandoForMenorZero_thorwsIllegalArgumentException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RaizTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VerificadorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.FormulaTest">
     <configuration name="FormulaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Matematica_Basica" />
